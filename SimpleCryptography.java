@@ -13,7 +13,7 @@ public class Encrypt {
 			System.out.println("Encrypt text: ");
 			String text = input.nextLine();
 			
-			int key = 5;    //The value can be change
+			int key = 5;    //The value can be changed
 			
 			
 			char[] chars = text.toCharArray();
@@ -29,7 +29,7 @@ public class Encrypt {
 				System.out.println("Decrypt text: ");
 				String text = input.nextLine();
 				
-				int key = 5;		//The value can be change
+				int key = 5;		//The value can be changed
 				
 				char[] chars = text.toCharArray();
 				for (char c: chars) {
